@@ -1,0 +1,145 @@
+/* styles.css */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+section {
+    padding: 20px 0;
+}
+
+article {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-content {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.toggle-content:hover {
+    background-color: #555;
+}
+
+.hidden-content {
+    display: none;
+    margin-top: 20px;
+}
+
+.show {
+    display: block;
+}
+.caja6{
+    -webkit-transition: 0.5s linear;
+    transition: 0.5s linear;
+    
+    margin:50px 0px;    
+     border:1px solid rgb(15, 15, 15);
+  }
+  .caja6:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.logo{ font-size: 30px;
+    position: center;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.infographic {
+    display:grid;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top: 40px;
+    width: 100%;
+    border: #333;
+    
+}
+
+.anose {
+    display:inline-flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    margin-top: 40px;
+}
